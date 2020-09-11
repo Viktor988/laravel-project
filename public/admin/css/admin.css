@@ -1,0 +1,77 @@
+#tabela{
+    width: 80%;
+    margin-bottom: 1rem;
+    color: #212529;
+    background-color: transparent;
+    margin-top: 153px;
+    float: right;
+    text-align: center;
+}
+#trazi{background-color: #dfdede;
+    color: black;}
+#kartext{word-break: break-all;}
+.w{min-height: 300px;}
+.dodaj{float: right;
+    margin-top: 89px;
+    margin-right: 17px}
+    .marke{float: right;
+        margin-top: 89px;
+        margin-right: 25px}
+        .proizvodt{width: 80%;
+            margin-bottom: 1rem;
+            color: #212529;
+            background-color: transparent;
+            margin-top: 153px;
+            float: right;
+            text-align: center;
+            margin-right: 500p;
+            margin-left: 228px;}
+        #formamarka{display:none;}
+        .pagination{    float: right;
+            margin-top: 89px;
+            margin-right: 17px;
+            position: absolute;
+            right: 239px}
+#forme{
+    width: 50%;
+    float: right;
+    margin-top: 69px;
+    margin-right: 139px;
+    margin-bottom: 126px}
+    #ubacidugme{margin-top: 25px;}
+    #informacijek{position: fixed;
+        z-index: 99999999;
+        float: right;
+        right: 52px;
+        top: 14px;}
+    .pr{          margin-top: -39px;
+        width: 226px;
+        margin-left: 131px;}
+        .adminslika{width:120px}
+        .slikaadmin{width:50px}
+        .kom{    margin-top: 161px;
+            max-width: 80%;
+            float: right;}
+            .aktivnost{
+
+                height: 967px;
+                /* width: 200px; */
+                overflow-y: auto;
+              }
+
+
+
+
+
+            @media screen and (max-width:1400px){
+                .proizvodt{position: absolute;}
+
+            }
+        @media screen and (max-width:1300px){
+            #tabela{position: absolute;}
+            .sidebar-mini.sidebar-collapse .main-sidebar, .sidebar-mini.sidebar-collapse .main-sidebar::before{margin-left: -250px;}
+        }
+        @media screen and (max-width:1200px){
+            .proizvodt{margin-left:10px;position: relative;}
+
+        }
